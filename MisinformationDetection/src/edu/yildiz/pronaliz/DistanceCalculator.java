@@ -22,9 +22,9 @@ public class DistanceCalculator {
 
 	   public static void main(String[] args) throws FileNotFoundException {
 
-			File folder = new File("/home/jihad/Desktop/dataset/100/provn/");
+			File folder = new File("/home/jihad/Desktop/Results/");
 			File[] listOfFiles = folder.listFiles();
-	        PrintWriter pw = new PrintWriter(new File("/home/jihad/Desktop/dataset/100/provn/distances.csv"));
+	        PrintWriter pw = new PrintWriter(new File("/home/jihad/Desktop/Results/distances.csv"));
 	        StringBuilder sb = new StringBuilder();
 			sb.append("FileName");
 			sb.append(',');
